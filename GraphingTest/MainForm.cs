@@ -29,7 +29,7 @@ namespace GraphingTest
 			graphWidget.GraphLines.Add(line1);
 			graphWidget.GraphLines.Add(line2);
 			graphWidget.GridMode= GridMode.YAxis|GridMode.XAxis;
-			graphWidget.XAxisLabel="Time";
+			graphWidget.XAxisLabel="Time (as it passes)";
 			graphWidget.YAxisLabel="Amount of stuff that happens";
 		}
 	}
